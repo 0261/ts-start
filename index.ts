@@ -1,15 +1,14 @@
 interface ISomeResponse {
-    statusCode: number;
     body: string;
+    statusCode: number;
 }
 
 export async function hello(event: any, context: any) {
     const response: ISomeResponse = {
         body: JSON.stringify({
-            message: Math.floor(Math.random() * 10)
+            message: Math.floor(Math.random() * 10),
         }),
-        statusCode: 200,
+        statusCode: 200
     };
-
-    return response
-};
+    return response;
+}
