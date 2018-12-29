@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "tslint:latest",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "ter-indent": [
+            true,
+            4
+        ],
+        "semicolon": false,
+        "trailing-comma": true,
+        "space-before-function-paren": false,
+        "eofline": false,
+        "unified-signatures": false,
+        "no-return-await": false,
+        "no-empty": false
+    },
+    "rulesDirectory": []
+}

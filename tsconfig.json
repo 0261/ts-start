@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": [
+            "es7"
+        ],
+        "module": "commonjs",
+        // "types": [
+        //   "reflect-metadata"
+        // ],
+        "baseUrl": "./",
+        "paths": {
+            "@handler": [
+                "handler"
+            ],
+            "@lib*": [
+                "lib/"
+            ],
+            "@interface": [
+                "interface"
+            ],
+            "@model": [
+                "model"
+            ]
+        },
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        // "esModuleInterop": true // as안해도됨
+    },
+}
